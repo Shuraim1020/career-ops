@@ -1,0 +1,89 @@
+# Career-Ops Profile Configuration -- Mohamet NDIAYE
+# Source unique de vérité pour toutes les évaluations et générations de CV
+
+candidate:
+  full_name: "Mohamet NDIAYE"
+  email: "mohametndiaye56@gmail.com"
+  phone: "0768733878"
+  location: "France (Île-de-France)"
+  linkedin: ""           # À compléter : linkedin.com/in/ton-profil
+  portfolio_url: ""      # À compléter si tu as un portfolio
+  github: "github.com/Shuraim1020"
+
+target_roles:
+  # Rôles cibles prioritaires
+  primary:
+    - "Product Owner SAP"
+    - "Business Analyst ERP SAP"
+    - "Consultant AMOA SAP ISU"
+  # Archetypes pour le scoring d'évaluation
+  archetypes:
+    - name: "Product Owner"
+      level: "Confirmé / Senior"
+      fit: "primary"
+    - name: "Business Analyst ERP"
+      level: "Confirmé / Senior"
+      fit: "primary"
+    - name: "Consultant AMOA SAP"
+      level: "Confirmé / Senior"
+      fit: "primary"
+    - name: "Consultant SAP S/4HANA"
+      level: "Mid-Senior"
+      fit: "secondary"
+    - name: "Product Manager"
+      level: "Confirmé"
+      fit: "secondary"
+    - name: "Chef de Projet SI"
+      level: "Mid-Senior"
+      fit: "adjacent"
+
+narrative:
+  headline: "Product Owner & Consultant AMOA SAP | Énergie | S/4HANA | SAFe 6 Certifié"
+  exit_story: >
+    6 ans d'expérience chez les acteurs majeurs de l'énergie en France (Enedis, GRDF).
+    Expert SAP IS-U et S/4HANA, certifié SAFe 6 PO/PM. Je pilote des programmes de
+    transformation digitale complexes en environnement Agile à grande échelle, avec une
+    capacité à faire le pont entre les métiers et les équipes techniques.
+  superpowers:
+    - "Expertise SAP ISU / S/4HANA / Fiori dans le secteur énergie"
+    - "Product Ownership en Agile @ Scale (SAFe, PI Planning)"
+    - "Cadrage fonctionnel et animation d'ateliers métier"
+    - "Pilotage de recettes et stratégie de test"
+    - "Communication transverse entre métier et technique"
+  proof_points:
+    - name: "Migration SAP S/4HANA – Programme LF 2024-2026 (Enedis)"
+      url: ""
+      hero_metric: "Pilotage de la migration de COSY vers S/4HANA sur le périmètre facturation marché d'affaires"
+    - name: "Application FIORI Rectifier Facture (Enedis)"
+      url: ""
+      hero_metric: "Évolution fonctionnelle majeure sur l'application de rectification de facture"
+    - name: "Système OMEGA – Ouverture marché gaz (GRDF)"
+      url: ""
+      hero_metric: "Contribution au SI de gestion du marché gaz en France depuis 2020"
+
+compensation:
+  target_range: "55K-75K EUR"
+  currency: "EUR"
+  minimum: "50K EUR"
+  location_flexibility: "Île-de-France, hybride (2-3 jours sur site)"
+
+location:
+  country: "France"
+  city: "Île-de-France"
+  timezone: "CET"
+  visa_status: "Pas de besoin de sponsoring"
+  onsite_availability: "Disponible pour du présentiel hybride en Île-de-France"
+
+evaluation_context:
+  must_have:
+    - "SAP (IS-U, S/4HANA, SD)"
+    - "Product Owner ou Business Analyst"
+    - "Secteur énergie, utilities ou grande entreprise"
+    - "Agile / SAFe"
+  dealbreakers:
+    - "100% présentiel hors Île-de-France"
+    - "Pas de composante SAP"
+    - "Startup early-stage sans structure"
+  avoid:
+    - "Rôles purement techniques sans interaction métier"
+    - "Missions de courte durée (< 6 mois)"
